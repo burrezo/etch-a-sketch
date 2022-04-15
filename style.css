@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./media/img/radar.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 5rem;
+    color: #FFFAFA;
+    font-family: 'Bebas Neue', cursive;
+}
+
+button {
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+div {
+    border: 1px solid #505050;
+}
+
+.sketch {
+    background-color: black;
+}
